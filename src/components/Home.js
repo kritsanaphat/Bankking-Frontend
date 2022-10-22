@@ -198,11 +198,11 @@ const Home = ({navigation}) => {
       <View style={{flex: 0.7}} className='flex-row items-center justify-center left-1% w-96% rounded-t-xl bg-green-main'>
         
         {/* go to Shop Screen */}
-        <View className='basis-1/3 items-center'>
+        {/* <View className='basis-1/3 items-center'>
           <Pressable onPress={() => navigation.navigate('Transfer')}>
             <Image style={{tintColor: '#F1EEE6'}} source={require('../assets/images/cart.png')} className='w-10 h-10'></Image>
           </Pressable>
-        </View>
+        </View> */}
         
         {/* go to Transfer Screen */}
         <Pressable onPress={() => navigation.navigate('Transfer')}>
@@ -216,11 +216,11 @@ const Home = ({navigation}) => {
         </Pressable>
         
         {/* go to qr-payment Screen */}
-        <View className='basis-1/3 items-center'>
+        {/* <View className='basis-1/3 items-center'>
           <Pressable onPress={() => navigation.navigate('Transfer')}>
             <Image style={{tintColor: '#F1EEE6'}} source={require('../assets/images/qr-code.png')} className='w-10 h-10'></Image>
           </Pressable>
-        </View>
+        </View> */}
 
       </View>
     </View>
